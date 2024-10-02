@@ -1,0 +1,51 @@
+* {
+    --header_hight: 150px;
+    box-sizing: border-box;
+}
+
+header {
+.links_header {
+        display: flex;
+        width: 100%;
+        padding: 50px 0;
+        background-color:antiquewhite;
+        color: blueviolet;
+        
+    }
+.lh_left{
+    flex: 1; 
+}
+.lh_right{
+    flex: 1;                
+    text-align: right;
+}
+
+.links_header a {
+    margin: 0 15px; /* Space between links */
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Optional: Set link color */
+}
+
+.links_header a:hover {
+    color: #007bff;
+}
+}
+    .text{
+    color: rgb(62, 181, 22);
+    font: italic bold 24px/30px Arial, sans-serif;
+    text-indent: 30px;
+    line-height:1.5;
+    
+    
+    
+ }
+ .CAP{ 
+    text-transform: uppercase;
+    text-decoration-line: underline;
+ }
+ .BOR{
+    border-width: 5px;
+    border-color: chartreuse;
+    border-style: solid;
+ }
+
