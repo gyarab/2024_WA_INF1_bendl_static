@@ -2,30 +2,44 @@
     --header_hight: 150px;
     box-sizing: border-box;
 }
+.game_names{
 
+}
 header {
 .links_header {
-        display: flex;
-        width: 100%;
-        padding: 50px 0;
-        background-color:antiquewhite;
-        color: blueviolet;
-        
-    }
-.lh_left{
-    flex: 1; 
+    display: flex;
+    width: 100%;
+    padding: 50px 0;
+    background-color:antiquewhite;
+    color: blueviolet;   
+    align-items: center;
 }
-.lh_right{
-    flex: 1;                
-    text-align: right;
+.lh_left {
+    flex: 1;
 }
-
+.lh_left img{
+    width: 100px;
+}
+.lh_mid {
+    flex: 2;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.lh_mid img{
+ width: 200px;
+}   
+.lh_right{   
+    flex: 2;    
+    display: flex;        
+    justify-content: flex-end; 
+    align-items: center;
+}
 .links_header a {
     margin: 0 15px; /* Space between links */
     text-decoration: none; /* Remove underline from links */
     color: #333; /* Optional: Set link color */
 }
-
 .links_header a:hover {
     color: #007bff;
 }
