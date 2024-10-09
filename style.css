@@ -1,84 +1,92 @@
 * {
-    --header_hight: 150px;
+    --header_height: 150px;
     box-sizing: border-box;
 }
-.game_names{
-
-}
-header {
 
 .links_header {
     display: flex;
     width: 100%;
-    padding: 50px ;
-    background-color:antiquewhite;
+    padding: 50px;
+    background-color: antiquewhite;
     align-items: center;
 }
+
 .lh_left {
     display: flex;
     flex: 1;
 }
-.lh_left img{
+
+.lh_left img {
     width: 75%;
     align-self: start;
-    justify-content: center; /*výškové zarovnání*/
+    justify-content: center;
 }
+
 .lh_mid {
     flex: 6;
     display: flex;
-    justify-content: center;  /*výškové zarovnání*/
+    justify-content: center;
     align-items: center;
 }
-.lh_mid img{
+
+.lh_mid img {
     width: 90%;
-}   
-.lh_right{   
-    flex: 1; 
 }
+
+.lh_right {
+    flex: 1;
+}
+
 .links_header a {
-    margin: 15px; 
-    text-decoration: none; /* žádné potrhnutí */
+    margin: 15px;
+    text-decoration: none;
     color: #333;
 }
+
 .links_header a:hover {
     color: #007bff;
 }
-}
 
-.image_section{
+.image_section {
     background-image: url(PNG/PNG_car_front.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width:100%;
-    height:100vh; 
-} 
+    width: 100%;
+    height: 100vh;
+}
+
 .image_section p {
     color: rgb(255, 17, 0);
     line-height: 3px;
     font: italic bold 24px/30px Arial, sans-serif;
     text-indent: 30px;
-    line-height:1.5;
+    line-height: 1.5;
 }
+
 .grid-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Dva sloupce */
-    grid-template-rows: auto auto; /* Dvě řádky */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
     background-color: black;
-    padding: 50PX;
+    padding: 50px;
     gap: 50px;
-}   
+}
+
 .content {
     background-color: red;
-}  
-.content img{
+}
+
+.content img {
     width: 100%;
     height: auto;
-} 
- .CAP{ 
+}
+
+.CAP {
     text-transform: uppercase;
     text-decoration-line: underline;
 }
- .BOR{
+
+.BOR {
     border-width: 5px;
     border-color: chartreuse;
     border-style: solid;
@@ -91,6 +99,5 @@ header {
 
     .links_header {
         flex-direction: column;
-
     }
 }
