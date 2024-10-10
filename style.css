@@ -2,7 +2,26 @@
     --header_height: 150px;
     box-sizing: border-box;
 }
-
+.gallery {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+}
+.gallery .image {
+    position: relative;
+}
+.gallery .image p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-bottom-color: #333;
+}
+.stick{
+    z-index: 10;
+    top: 0;
+    position: sticky;
+}
 .links_header {
     display: flex;
     width: 100%;
