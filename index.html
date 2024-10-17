@@ -6,6 +6,48 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div id = "test"></div>
+        <script>
+            console.log("hallo world");
+            let el=document .getElementById("test");
+            let arr = ["jedna", "dva" , "tri"]
+            let a = 2;
+            let b = "3";
+            const c = 3;
+            /*
+            for(let i = 0 ;i < arr.length; i++){
+                let div = document .createElement("div");
+                div.innerHTML = arr[i];
+                div.classList .add("neco");
+                el.appendChild(div);
+            }
+            */
+            a = 3 ;
+            var d = 
+            console.log(typeof(a));
+            console.log(typeof(b));
+            console.log(a+b);
+            console.log(a+a);
+            el.innerHTML = "Hello wordl";
+
+            let test = (arg) => {
+                console.log(arg)
+                return 1;
+            }
+            let even = (num) => {return num % 2 == 0}
+            arr[1,2,3,4,5]
+            console.log(arr.filter(even));
+            console.log(test);
+            console.log(test());
+
+            class Test {
+                constructor(a,b) {
+                    this.a = a;
+                    this.b = b;
+                }
+            }
+            
+        </script>
         <section>
             <header class="stick" >
                 <div id="Header_incl_links" class="link-header">
@@ -48,7 +90,7 @@
                 </div>
             </header>
  
-            <section id="zacatek" class="image_section">
+            <section id="about" class="about_section">
                 <h1 class="paragraph"><em><u>About</u></em></h1>
                 <p class="paragraph">Content here...</p>
             </section>
@@ -74,7 +116,7 @@
         <nav id="odkazy">
             <h1 class="BOR">Links Section</h1>
             <ul>
-                <li><a href="#zacatek">Start</a></li>
+                <li><a href="#about">Start</a></li>
                 <li><a href="#cenik">Price List</a></li>
                 <li><a href="#nakonec">End</a></li>
                 <li><a href="#japonec">Random Japanese</a></li>
